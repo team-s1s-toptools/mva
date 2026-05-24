@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: mva1
+    env: python
+    buildCommand: pip install websockets
+    startCommand: python server1.py
+    plan: free
